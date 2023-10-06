@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		
+		<link
+			href="/dist/output.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="font-custom"">
+		<main
+			class="container flex flex-col md:flex-row md:flex-wrap h-screen items-center justify-center"
+		>
+			<section
+				class="h-450 w-80 bg-gradient-to-b from-light-slate-blue to-light-royal-blue rounded-[25px] shadow-2xl shadow-persian-blue-circle flex flex-col items-center justify-evenly text-center p-8"
+			>
+				<h1 class="text-light-lavender text-xl">Your Result</h1>
+				<br />
+				<section class="h-40 w-40 rounded-full  bg-gradient-to-t to-violet-blue-circle from-persian-blue-circle">
+					<span class="text-white text-7xl mt-10 container flex flex-col ">76</span>
+					<span class="text-light-lavender text-md">of 100</span>
+				</section>
+				<h2 class="text-white text-3xl font-bold ">Great</h2>
+				<p class="text-light-lavender text-base  mx-4 text-center">
+					You scored higher than 65% of the people who have taken
+					these tests.
+				</p>
+			</section>
+			<section class="h-450 w-80 rounded-[25px]  flex flex-col  shadow-2xl shadow-persian-blue-circle  items-start pl-10 text-dark-gray-blue justify-evenly">
+				<h2 class="text-2xl text-dark-gray-blue">Summary</h2>
+				<ul  class="flex flex-col gap-5">
+					<li class="flex bg-light-red p-3 rounded-xl w-56">
+						<img class="mr-1"
+							src="/assets/images/icon-reaction.svg"
+							alt="reaction icon"
+						/>
+						<span class="text-my-red mr-14"> Reaction</span><span> 80 <span class="text-light-lavender">/100</span></span>
+					</li>
+					<li class="flex bg-my-gold-yellow p-3 rounded-xl w-56">
+						<img class="mr-1"
+							src="/assets/images/icon-memory.svg"
+							alt="memory icon"
+						/>
+						<span class="text-gold-yellow mr-14"> Memory</span><span> 92 <span class="text-light-lavender">/100</span></span>
+					</li>
+					<li class="flex bg-my-green-teal p-3 rounded-xl w-56">
+						<img class="mr-1"
+							src="/assets/images/icon-verbal.svg"
+							alt="verbal icon"
+						/>
+						<span class="text-green-teal mr-16"> Verbal</span><span> 61 <span class="text-light-lavender">/100</span></span>
+					</li>
+					<li class="flex bg-my-cobalt-blue p-3 rounded-xl w-56">
+						<img class="mr-1"
+							src="/assets/images/icon-visual.svg"
+							alt="visual icon"
+						/>
+						<span class="text-cobalt-blue mr-16"> Visual</span><span> 72 <span class="text-light-lavender">/100</span></span>
+					</li>
+				</ul>
+				<button class="bg-dark-gray-blue text-white rounded-full cursor-pointer w-56 p-2 hover:bg-light-slate-blue active:bg-gradient-to-b from-light-slate-blue to-light-royal-blue">Continue</button>
+			</section>
+		</main>
+
+		<footer class="text-xs text-center">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				class="text-blue-500"
+			>
+				Frontend Mentor
+			</a>
+			. Coded by
+			<a
+				href="#"
+				class="text-blue-500"
+			>
+				Bek Johansson
+			</a>
+			.
+		</footer>
+	</body>
+</html>
